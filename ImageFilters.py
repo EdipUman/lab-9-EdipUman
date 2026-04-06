@@ -60,8 +60,8 @@ def main():
     # bwFilter(myImg)
 
     # Uncomment each function as you complete it
-    swapGreenBlue(myImg)
-    darken(myImg, 20)
+    swapGreenBlue(Image.open("durango.png"))
+    darken(Image.open("durango.png"), 20)
 
 
 if __name__ == "__main__":
